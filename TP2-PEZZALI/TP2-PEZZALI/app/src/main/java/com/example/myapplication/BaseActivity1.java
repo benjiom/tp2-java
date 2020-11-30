@@ -6,9 +6,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class BaseActivity1 extends BaseActivity{
+    @Override
     public int myView(){
         return (R.layout.baseactivity1);
     }
+    @Override
     public void gotoActivity(View view){
         Intent myIntent = new Intent(view.getContext(), BaseActivity2.class);
         view.getContext().startActivity(myIntent);
