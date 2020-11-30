@@ -12,10 +12,15 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="5dp">
+        <TextView
+            android:id="@+id/activite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
         <Button
             android:id="@+id/button1"
-            android:layout_width="88dp"
-            android:layout_height="51dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
             android:text="Changer d'activité"
             android:onClick="gotoActivity"
             tools:layout_editor_absoluteX="37dp"
@@ -32,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="-"
-                android:onClick="setMoins"
+                android:onClick="setLess"
                 tools:layout_editor_absoluteX="37dp"
                 tools:layout_editor_absoluteY="109dp"
                 tools:ignore="MissingConstraints" />
@@ -43,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="110dp"
                 android:text="+"
-                android:onClick="setPlus"
+                android:onClick="setMore"
                 tools:layout_editor_absoluteX="159dp"
                 tools:layout_editor_absoluteY="109dp"
                 tools:ignore="MissingConstraints" />

@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -17,7 +18,7 @@ public abstract class BaseActivity extends MainActivity {
     }
     public abstract int myView();
     public abstract void gotoActivity(View view);
-    public void setPlus(View view){
+    public void setMore(View view){
         nbr++;
         nbr1++;
         TextView mynbr = findViewById(R.id.nbr);
@@ -28,7 +29,7 @@ public abstract class BaseActivity extends MainActivity {
         mynbr.setText(monIntEnString);
         mynbr1.setText(monIntEnString1);
     }
-    public void setMoins(View view){
+    public void setLess(View view){
         nbr--;
         nbr1--;
         TextView mynbr = findViewById(R.id.nbr);
