@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.e("DEVE0304", "Button clicked");
-                Intent myIntent = new Intent(view.getContext(), Activity2.class);
+                Intent myIntent = new Intent(view.getContext(), BaseActivity1.class);
                 myIntent.putExtra("Nom de l'utilisateur","John Doe");
                 view.getContext().startActivity(myIntent);
             }

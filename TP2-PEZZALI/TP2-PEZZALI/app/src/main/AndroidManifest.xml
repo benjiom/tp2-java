@@ -33,6 +33,28 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity
+            android:name=".BaseActivity1"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".BaseActivity2"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
 
     </application>
